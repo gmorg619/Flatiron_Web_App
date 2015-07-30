@@ -21,7 +21,7 @@ class MyApp < Sinatra::Base
   post '/celeb_page' do
     @celeb_hash = {
   "Taylor Swift" => {:name    => "<h1>Taylor Swift</h1>",
-              :picture => "<img id='tswift' src='http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408618840671/18839f21-608b-4acd-a2aa-a944db3e15e7-2060x1236.jpeg'>",
+    :picture => "<img id='celeb_pic' src='http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408618840671/18839f21-608b-4acd-a2aa-a944db3e15e7-2060x1236.jpeg'>",
               :Twitter => "<a class='twitter-timeline' href='https://twitter.com/taylorswift13' data-widget-id='626771222114775040'>Tweets by @taylorswift13</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
               :website => "http://taylorswift.com/",
