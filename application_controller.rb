@@ -1,12 +1,19 @@
-require_relative 'celeb_smash.rb'
+require_relative 'models/celeb_smash.rb'
 require 'bundler'
 Bundler.require
 
 class MyApp < Sinatra::Base
 
   #GET gets data from the server
-  get '/index' do
+  get '/' do
     erb :index
+  end
+  
+   get '/taylor_swift' do
+    erb :taylor_swift
+  end
+  get '/drake' do
+    erb :drake
   end
 
 
