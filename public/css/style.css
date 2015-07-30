@@ -3,7 +3,7 @@ h1 {
   animated:
 }
 
-#drake {
+#celeb_pic {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -18,20 +18,6 @@ h1 {
 
 }
 
-#tswift {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  opacity: .7;
-  width: 90%;
-
-   width: 1000px;
-    height: 600px;
-    -webkit-border-radius: 1000px;
-    -moz-border-radius: 600px;
-    border-radius: 50%;
-
-}
 
 iframe {
   margin-left: 200px;
