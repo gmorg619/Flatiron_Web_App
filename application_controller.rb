@@ -88,7 +88,7 @@ class MyApp < Sinatra::Base
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
                     :website => "http://www.jcolemusic.com/",
                     :soundcloud => "<iframe width='95%' height='300' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/958563&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true'></iframe>",
-                    :youtube => "<iframe src='http://www.youtube.combed/?listType=user_uploads&list=jcolemusic' width='520' height='600' frameBorder='0'></iframe>",
+                    :youtube => "<iframe width='520' height='600' src='https://www.youtube.com/embed/eCGV26aj-mM?list=PL68938922BD14537F' frameborder='0' allowfullscreen></iframe>",
                     :spotify => "<iframe src='https://embed.spotify.com/?uri=spotify%3Aalbum%3A7viNUmZZ8ztn2UB4XB3jIL' width='520' height='600' frameborder='0' allowtransparency='true'></iframe>",
                     :instagram => "<iframe src='http://snapwidget.com/sc/?u=cmVhbGNvbGV3b3JsZHxpbnwzMDB8M3wxMHx8eWVzfDIwfGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=310715' title='Instagram Widget' class='snapwidget-widget' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:95%; height:300px'></iframe>",
                     :news => "",},
