@@ -10,11 +10,11 @@
 
 # }
 
-def print_celeb_name(hash)
-  if hash.has_key?(:name)
-    return hash[:name]
-  end
-end
+# def print_celeb_name(hash)
+#   if hash.has_key?(:name)
+#     return hash[:name]
+#   end
+# end
 
 def print_celeb_info(hash)
   celeb_info_array = []

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="style/css" href="css/style.css">
+  <title><%= @celeb_name %>'smash</title>
+   <link rel="shortcut icon" href="http://www.mubs.edu.lb/assets/templates/rev/img/instagram-256.png">
+ </head>
+ <body>
+   <br><br>
+   <div class = "title"><h1><%= @celeb_name %></h1></div>
+   <br><br>
+   <div ><img id = "celeb_pic" src="<%= @celeb_picture %>"></div>
+   <br><br>
+   <div  class = "website"><a href = "<%= @celeb_website %>">  <%= @celeb_name %>'s Website  </a></div>
+   <br><br>
+   <div><%= @celeb_instagram %></div>
+   <br><br>
+   <div class = "left"><%= @celeb_youtube %></div>
+   
+   <div class = "right"><%= @celeb_spotify %></div>
+   
+   <div class = "twitter"><%= @celeb_twitter %></div>
+   <br><br>
+   <div><%= @celeb_soundcloud %></div>
+   <br><br>
+   
+   
+   
+ </body>
+</html>

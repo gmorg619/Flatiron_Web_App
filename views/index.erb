@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <meta charset="UTF-8">
+   <meta charset="UTF-8">
    <link rel="stylesheet" type="style/css" href="css/style.css">
    <link rel="stylesheet" href="animate.min.css">
-  <title> Home </title>
+   <title>Celebsmash</title>
  </head>
  <body>
-   <h1 class="animated zoomOutUp">TITLE</h1>
-   <p> Choose a celebrity </p>
-   <form method = 'POST' action='/celeb_page'>
-   <input type='' name="person">
-   <input type = submit>
-<!--    <input type="image" src="http://ecx.images-amazon.com/images/I/5166i3PHK-L.jpg" name="Drake" width="100" height="100"> -->
-   </form>
-
-<!-- <a href="drake">Drake</a>
-<a href="taylor_swift">Taylor Swift</a>
-   
-
-
-<a href="drake"><img src="http://ecx.images-amazon.com/images/I/5166i3PHK-L.jpg"></a>
-<a href="taylor_swift"><img src="http://static.dnaindia.com/sites/default/files/2015/06/13/346022-308376-taylor-swift-getty-images.jpg"></a>
-  <div id="circle"></div>  -->
-
+   <div class="page-content">
+     <div class="title">
+       <h2>Celebsmash</h2>
+     </div>
+     <form method='POST' action='/celeb_page'>
+       <div class="container">
+         <h1 class="input-header">Enter the name of the celebrity you'd like to view.</h1>
+          
+         <div class="input-group">
+           <input class="fancy-input" type="text" name="person" placeholder="Celeb Name">
+           <button class="fancy-btn" type="submit">Submit</button>
+         </div>
+       </div>
+     </form>
+     </div>
+   <div class = "celeb_pics">
+     
+     <div class = "photo_container">
+       <div class ="photo"><img id="drake" src="http://ecx.images-amazon.com/images/I/5166i3PHK-L.jpg"><h1>Drake</h1></div>
+       <div class ="photo"><img id="tswift"src="http://static.dnaindia.com/sites/default/files/2015/06/13/346022-308376-taylor-swift-getty-images.jpg"><h1>Taylor Swift</h1></div>
+     </div>
+     <div class = "photo_container">
+       <div class ="photo"><img id="beyonce" src="https://www.grammy.com/files/styles/square_carousel/public/photos/beyonce_463020982.jpg?itok=DwOZHL3-"><h1>Beyoncé</h1></div>
+       <div class ="photo"><img id="rihanna" src = "http://www.glamour.com/images/beauty/2013/08/rihanna-mini-grill-teeth-vmas-2013-square-w352.jpg"><h1>Rihanna</h1></div>
+     </div>
+     <div class = "photo_container">
+       <div class ="photo"><img id="chance" src="https://pbs.twimg.com/profile_images/3596793984/ac0c542dbb8fff22f23ce04ac132d0d9_400x400.jpeg"><h1>Chance</h1></div>
+       <div class ="photo"><img id="lorde" src="http://static.gigwise.com/artists/wenn21021894%20Lorde%20600.jpg"><h1>Lorde</h1></div>
+     </div>
+     <div class = "photo_container">
+       <div class ="photo"><img id="j.cole" src="http://static.tumblr.com/wvzujvn/c9Fnga8oz/2014_fhdcover.jpg"><h1>J. Cole</h1></div>
+       <div class ="photo"><img id="kanye" src="https://alishawritinglife.files.wordpress.com/2012/06/kanyewest2.jpg"><h1>Kanye West</h1></div>
+     </div>
+     <div class = "photo_container">
+       <div class ="photo"><img id="big_sean" src="http://blog-imgs-34.fc2.com/c/3/1/c316/Big-Sean-Finally-Famous-Deluxe-Edition-2011.jpeg"><h1>Big Sean</h1></div>
+       <div class ="photo"><img id="ariana_grande" src="https://s-media-cache-ak0.pinimg.com/736x/ba/db/b8/badbb8f9bf14e3d3c38c2bf9f493e75b.jpg"><h1>Ariana Grande</h1></div>
+     </div>
+   </div>
  </body>
 </html>

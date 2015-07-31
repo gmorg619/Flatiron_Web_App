@@ -1,6 +1,102 @@
-h1 {
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/fc/a9/c3/fca9c34e5757c544c6ede8d9b82a86b2.jpg");
+  background-color: #cccccc;
   text-align: center;
-  animated:
+  font-family: arial;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+.page-content {
+  margin-top: 200px;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.input-group {
+  margin-top: 40px;
+}
+
+.input-header {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+.photo_container{
+   float:left;
+}
+.photo {
+  padding: 45px;
+}
+h1 {
+  font-size: 25px;
+  color: white;
+}
+.fancy-input {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.fancy-btn {
+  height: auto;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.fancy-btn:hover {
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  background-color:rgba(0,0,0,.65);
+  opacity: .8;
+  border-radius: 25px;
+  width: 70%;
+  height: 10%;
+}
+
+.website {
+  text-align: center;
+  font-size: 40px;
+}
+
+a {
+  width: 40%;
+  text-decoration:none;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(255,255,255,.6);
+  border-width: 5px;
+  background-color:rgba(0,0,0,.65);
+  padding: 10px;
+  overflow: hidden;
+}
+
+a:hover {
+  font-size: 41px;
+  border-color: black
+}
+
+a:visited {
+  color: white
 }
 
 #celeb_pic {
@@ -8,46 +104,56 @@ h1 {
   margin-right: auto;
   display: block;
   opacity: .7;
-
-   width: 1000px;
-    height: 600px;
-    -webkit-border-radius: 1000px;
-    -moz-border-radius: 600px;
-    border-radius: 50%;
-
-
+  width: 1000px;
+  height: 600px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 600px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(255,255,255,.6);
+  border-width: 5px;
 }
 
-
-iframe {
-  margin-left: 200px;
-  margin-right: auto;
-  display: block;
+.right{
+  float:right;
+  margin-right: 50px;
 }
 
-.twitter-timeline {
-  display: inline-block;
+.left{
+  float:left;
+  margin-left: 50px; 
 }
+
 div {
-  margin-left: auto;
   margin-right: auto;
-  display: block;
+  margin-left: auto
 }
-#spotify {
-  margin-top: 100px;
-  margin-bottom: auto;
-  margin-right: 400px;
-  margin-left: auto;
-  display: inline-block;
-  float: right;
-}
-
 
 img {
  width: 150px;
  height: 150px;
  -webkit-border-radius: 150px;
  -moz-border-radius: 150px;
- border-radius: 150px;;
+ border-radius: 150px;
+  opacity: .6;
+} 
+img:hover {
+  width: 140px;
+ height: 140px;
+ -webkit-border-radius: 150px;
+ -moz-border-radius: 150px;
+ border-radius: 150px;
+  opacity: 1;
+  border-style: solid;
+  border-color: rgba(255,255,255,.6);
+  border-width: 5px;
+  cursor: pointer;
 }
 
+.celeb_pics {
+  margin-left: 200px;
+  padding:50px;
+}
+
+
+/
