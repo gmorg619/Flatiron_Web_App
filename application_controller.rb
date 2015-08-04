@@ -13,7 +13,7 @@ class MyApp < Sinatra::Base
   #POST sends data to the server
   post '/celeb_page' do
     @celeb_hash = {
-  "taylor swift" => {:name    => "Taylor Swift",
+  "taylorswift" => {:name    => "Taylor Swift",
                     :picture => "http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408618840671/18839f21-608b-4acd-a2aa-a944db3e15e7-2060x1236.jpeg",
                     :twitter => "<a class='twitter-timeline' href='https://twitter.com/taylorswift13' data-widget-id='627111963903041538'>Tweets by @taylorswift13</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
@@ -32,7 +32,7 @@ class MyApp < Sinatra::Base
                     :spotify => "<iframe src='https://embed.spotify.com/?uri=spotify%3Aartist%3A3TVXtAsR1Inumwj472S9r4' width='520' height='600' frameborder='0' allowtransparency='true'></iframe>",
                     :instagram => "<iframe src='http://snapwidget.com/sc/?u=Y2hhbXBhZ25lcGFwaXxpbnwzMDB8M3wxMHx8eWVzfDIwfGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=300715' title='Instagram Widget' class='snapwidget-widget' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:95%; height:300px'></iframe>",
                     :news => ""},
-  "kanye west"  => {:name => "Kanye West",
+  "kanyewest"  => {:name => "Kanye West",
                     :picture => "https://allhiphop.files.wordpress.com/2014/05/kanye-west1.jpg",
                     :twitter => "<a class='twitter-timeline' href='https://twitter.com/kanyewest' data-widget-id='626937700046737408'>Tweets by @kanyewest</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
@@ -62,7 +62,7 @@ class MyApp < Sinatra::Base
                     :spotify => "<iframe src='https://embed.spotify.com/?uri=spotify%3Aalbum%3A2UJwKSBUz6rtW4QLK74kQu' width='520' height='600' frameborder='0' allowtransparency='true'></iframe>",
                     :instagram => "<iframe src='http://snapwidget.com/sc/?u=YmV5b25jZXxpbnwzMDB8M3wxMHx8eWVzfDIwfGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=310715' title='Instagram Widget' class='snapwidget-widget' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:95%; height:300px'></iframe>",
                     :news => "",},
-      "chance the rapper"  => {:name => "Chance the Rapper",
+      "chancetherapper"  => {:name => "Chance the Rapper",
                     :picture => "https://allhiphop.files.wordpress.com/2013/12/chance-the-rapper.png",
                     :twitter => "<a class='twitter-timeline' href='https://twitter.com/chancetherapper' data-widget-id='627112702410911744'>Tweets by @chancetherapper</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
@@ -82,7 +82,7 @@ class MyApp < Sinatra::Base
                     :spotify => "<iframe src='https://embed.spotify.com/?uri=spotify%3Aalbum%3A6rnzvZhe3PA57xKcKLRtJ6' width='520' height='600' frameborder='0' allowtransparency='true'></iframe>",
                     :instagram => "<iframe src='http://snapwidget.com/sc/?u=bG9yZGVtdXNpY3xpbnwzMDB8M3wxMHx8eWVzfDIwfGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=310715' title='Instagram Widget' class='snapwidget-widget' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:95%; height:300px'></iframe>",
                     :news => "",},
-      "j. cole"  => {:name => "J. Cole",
+      "jcole"  => {:name => "J. Cole",
                     :picture => "http://img.cache.vevo.com/Content/VevoImages/video/22521441C8E1560939E10439D05B9931.jpg",
                     :twitter => "<a class='twitter-timeline' href='https://twitter.com/JColeNC' data-widget-id='627123643668123648'>Tweets by @JColeNC</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
@@ -92,7 +92,7 @@ class MyApp < Sinatra::Base
                     :spotify => "<iframe src='https://embed.spotify.com/?uri=spotify%3Aalbum%3A7viNUmZZ8ztn2UB4XB3jIL' width='520' height='600' frameborder='0' allowtransparency='true'></iframe>",
                     :instagram => "<iframe src='http://snapwidget.com/sc/?u=cmVhbGNvbGV3b3JsZHxpbnwzMDB8M3wxMHx8eWVzfDIwfGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=310715' title='Instagram Widget' class='snapwidget-widget' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:95%; height:300px'></iframe>",
                     :news => "",},
-      "big sean"  => {:name => "Big Sean",
+      "bigsean"  => {:name => "Big Sean",
                     :picture => "http://imd.ulximg.com/image/src/cover/1410729823_6dee8c8ad087d7e5e05080be548cfd66.jpg/9cad57a9abbd3bb3570d8cc6511cdb16/1410729823_sean_e1394067042621_90.jpg",
                     :twitter => "<a class='twitter-timeline' href='https://twitter.com/BigSean' data-widget-id='627126392665305089'>Tweets by @BigSean</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
@@ -102,7 +102,7 @@ class MyApp < Sinatra::Base
                     :spotify => "<iframe src='https://embed.spotify.com/?uri=spotify%3Aalbum%3A1j2x7FJXTgUT0X5hZ8TDXE' width='520' height='600' frameborder='0' allowtransparency='true'></iframe>",
                     :instagram => "<iframe src='http://snapwidget.com/sc/?u=Ymlnc2VhbnxpbnwzMDB8M3wxMHx8eWVzfDIwfGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=310715' title='Instagram Widget' class='snapwidget-widget' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:95%; height:300px'></iframe>",
                     :news => "",},
-      "ariana grande"  => {:name => "Ariana Grande",
+      "arianagrande"  => {:name => "Ariana Grande",
                     :picture => "http://a57.foxnews.com/global.fncstatic.com/static/managed/img/Entertainment/876/493/ariana%20grande%20reuters%20660.jpg?ve=1&tl=1",
                     :twitter => "<a class='twitter-timeline' href='https://twitter.com/ArianaGrande' data-widget-id='627128018817949696'>Tweets by @ArianaGrande</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
@@ -124,8 +124,8 @@ class MyApp < Sinatra::Base
 #                     :news => "",},
         
 }
-    
-    person = params[:person].downcase
+
+    person = params_converter(params).downcase
     if @celeb_hash.has_key?(person)
        @celeb_name = @celeb_hash[person][:name]
        @celeb_website = @celeb_hash[person][:website]
