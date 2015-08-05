@@ -42,6 +42,7 @@ h1 {
   font-size: 18px;
   color: white;
 }
+
 .fancy-input {
   width: 300px;
   height: auto;
@@ -134,15 +135,18 @@ div {
   margin-right: auto;
   margin-left: auto
 }
+
 .btn {
   width: 150px;
   height: 150px;
   border-radius: 150px;
   opacity: 0;
 }
+
 .btn:hover {
   cursor:pointer;
 }
+
 .photo {
   margin: 45px;
   width: 148px;
@@ -155,6 +159,7 @@ div {
   border-color: rgba(255,255,255,.6);
   border-width: 1px;
 } 
+
 .photo:hover {
   width: 142px;
   height: 142px;
@@ -165,16 +170,13 @@ div {
   border-style: solid;
   border-color: rgba(255,255,255,.6);
   border-width: 4px;
-  
 }
 
 .photo h1 {
-  opacity: 0; 
-  
+  opacity: 0;  
 }
 
 .photo:hover h1{ 
-  
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   opacity: .9; 
@@ -192,46 +194,55 @@ div {
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #tswift{
   background-image: url("http://static.dnaindia.com/sites/default/files/2015/06/13/346022-308376-taylor-swift-getty-images.jpg");
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #beyonce{
   background-image: url("https://www.grammy.com/files/styles/square_carousel/public/photos/beyonce_463020982.jpg?itok=DwOZHL3-");
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #ariana_grande{
   background-image: url("https://s-media-cache-ak0.pinimg.com/736x/ba/db/b8/badbb8f9bf14e3d3c38c2bf9f493e75b.jpg");
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #kanye{
   background-image: url("https://alishawritinglife.files.wordpress.com/2012/06/kanyewest2.jpg");
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #jcole{
   background-image: url("http://static.tumblr.com/wvzujvn/c9Fnga8oz/2014_fhdcover.jpg");
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #rihanna{
   background-image: url("http://www.glamour.com/images/beauty/2013/08/rihanna-mini-grill-teeth-vmas-2013-square-w352.jpg");
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #chance{
   background-image: url("https://pbs.twimg.com/profile_images/3596793984/ac0c542dbb8fff22f23ce04ac132d0d9_400x400.jpeg");
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #big_sean{
   background-image: url("http://blog-imgs-34.fc2.com/c/3/1/c316/Big-Sean-Finally-Famous-Deluxe-Edition-2011.jpeg");
   overflow: hidden;
   background-size: 150px 150px;
 }
+
 #lorde{
   background-image: url("http://static.gigwise.com/artists/wenn21021894%20Lorde%20600.jpg");
   overflow: hidden;

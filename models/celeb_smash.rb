@@ -47,6 +47,7 @@ end
                     :picture => "http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408618840671/18839f21-608b-4acd-a2aa-a944db3e15e7-2060x1236.jpeg",
                     :twitter => "<a class='twitter-timeline' href='https://twitter.com/taylorswift13' data-widget-id='627111963903041538'>Tweets by @taylorswift13</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>",
+                    :website => "http://taylorswift.com/",
                     :youtube => "<iframe src='http://www.youtube.com/embed/?listType=user_uploads&list=TaylorSwiftVEVO' width='520' height='600' frameBorder='0'></iframe>",
                     :soundcloud => "<iframe width='95%' height='300' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166985759&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true'></iframe>",
                     :spotify => "<iframe src='https://embed.spotify.com/?uri=spotify%3Aalbum%3A6QdtulV7ptHjdNVnhB63g3' width='520' height='600' frameborder='0' allowtransparency='true'></iframe>",
