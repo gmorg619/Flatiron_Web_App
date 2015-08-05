@@ -39,7 +39,7 @@ form {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 18px;
   color: white;
 }
 .fancy-input {
@@ -120,12 +120,12 @@ a:visited {
   border-width: 5px;
 }
 
-.right{
+.spotify{
   float:right;
   margin-right: 50px;
 }
 
-.left{
+.youtube{
   float:left;
   margin-left: 50px; 
 }
@@ -139,6 +139,9 @@ div {
   height: 150px;
   border-radius: 150px;
   opacity: 0;
+}
+.btn:hover {
+  cursor:pointer;
 }
 .photo {
   margin: 45px;
@@ -162,7 +165,7 @@ div {
   border-style: solid;
   border-color: rgba(255,255,255,.6);
   border-width: 4px;
-  cursor: pointer;
+  
 }
 
 .photo h1 {
@@ -175,6 +178,13 @@ div {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   opacity: .9; 
+}
+
+.widget_header {
+  color: white;
+  font-size: 25px;
+  font-family:arial;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #drake {
