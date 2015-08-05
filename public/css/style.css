@@ -1,5 +1,6 @@
 body {
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/fc/a9/c3/fca9c34e5757c544c6ede8d9b82a86b2.jpg");
+  background-size: 1920px 1080px;
   background-color: #cccccc;
   text-align: center;
   font-family: arial;
@@ -39,7 +40,7 @@ form {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
 }
 
